@@ -544,10 +544,10 @@ mocha@^7.1.2:
     yargs-parser "13.1.2"
     yargs-unparser "1.6.0"
 
-mongo-pipeline@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/mongo-pipeline/-/mongo-pipeline-1.0.7.tgz#17c53eef02b9313e75e82d942462406024e73b5f"
-  integrity sha512-5Khggtm1JTYsgUpDSunsEwtoAD7m+CLf5a2NxNaxfwl6qRJxe38bEvtRBPXCzVpTeNpfHh4BuhoTw5v5M9IynA==
+mongo-pipeline@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/mongo-pipeline/-/mongo-pipeline-1.0.9.tgz#932a6ea48d0e105c29d5956eaca71b418dcb4a9d"
+  integrity sha512-9lXZe+rUgXyvQ4N0EOoV6Drr0Phc8mv6DRTcTL0khfiTpTzpJkVGAjuSD7CDm56zbt33thFfYRbs1P16nn3DWg==
 
 mongodb@3.5.7:
   version "3.5.7"

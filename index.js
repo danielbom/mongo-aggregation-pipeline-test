@@ -71,6 +71,7 @@ describe("Basic test", () => {
       expect(users).to.has.length(10);
       for (const user of users) {
         expect(user).to.have.any.keys("people");
+        expect(user.people).to.be.a("object").and.to.have.any.keys("_id");
       }
     });
   });
@@ -84,6 +85,10 @@ describe("Basic test", () => {
       expect(users).to.has.length(10);
       for (const user of users) {
         expect(user).to.have.any.keys("contacts");
+        expect(user.contacts).to.be.an("array");
+        for (const contact of user.contacts) {
+          expect(contact).to.have.any.keys("_id");
+        }
       }
     });
   });
