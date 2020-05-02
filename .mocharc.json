@@ -1,0 +1,6 @@
+{
+  "slow": 1000,
+  "reporter": "spec",
+  "colors": true,
+  "exit": true
+}
