@@ -3,10 +3,11 @@
 const { expect } = require("chai");
 const models = require("./models");
 const factory = require("./factory");
+const methods = require("./methods");
 const mongoose = require("mongoose");
 
-// const { pipeline } = require("../mongo-pipeline");
-const { pipeline } = require("mongo-pipeline");
+const { pipeline, op } = require("../mongo-pipeline");
+// const { pipeline, op } = require("mongo-pipeline");
 
 async function generateFakeData() {
   const DB = "test";
@@ -24,7 +25,7 @@ async function generateFakeData() {
   }
 }
 
-describe("Basic test", () => {
+describe("Basic test with one model", () => {
   before(generateFakeData);
 
   describe("One", () => {
@@ -90,6 +91,17 @@ describe("Basic test", () => {
           expect(contact).to.have.any.keys("_id");
         }
       }
+    });
+  });
+});
+
+describe("General testes", () => {
+  describe("Each method should works", () => {
+    methods.forEach((method) => {
+      it(`Method '${method.name}'`, () => {
+        const result = op[method.name](...method.args);
+        expect(result).to.be.eql(method.expect);
+      });
     });
   });
 });
