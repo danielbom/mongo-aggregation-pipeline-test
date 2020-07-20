@@ -479,9 +479,9 @@ locate-path@^3.0.0:
     path-exists "^3.0.0"
 
 lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@3.0.0:
   version "3.0.0"
@@ -544,10 +544,10 @@ mocha@^7.1.2:
     yargs-parser "13.1.2"
     yargs-unparser "1.6.0"
 
-mongo-pipeline@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/mongo-pipeline/-/mongo-pipeline-1.0.9.tgz#932a6ea48d0e105c29d5956eaca71b418dcb4a9d"
-  integrity sha512-9lXZe+rUgXyvQ4N0EOoV6Drr0Phc8mv6DRTcTL0khfiTpTzpJkVGAjuSD7CDm56zbt33thFfYRbs1P16nn3DWg==
+mongo-pipeline@^1.0.10:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/mongo-pipeline/-/mongo-pipeline-1.0.11.tgz#c68cf87fbc1447dcbb9f4561f6d1d1cf6008bc18"
+  integrity sha512-u4CMC5fxAyGRsNy/NSYfaAdQc2Y2icJoIJYxET+bLihHro6kAaEIuBudOFHzVGiMixD8af+8ftYNsYBoF0SlOg==
 
 mongodb@3.5.7:
   version "3.5.7"
